@@ -1,0 +1,408 @@
+*{
+font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+/*Top Most Section*/
+.container-banner{
+    max-width: 1320px;
+    width: 83%;
+    margin: 0 auto;
+}
+.banner{
+    width: 1096px;
+    height: 498px;
+    background-image: url('./resources/Banner\ Image.png');
+    background-size: contain;
+    margin: auto auto;
+
+}
+.banner-text{
+    margin: auto;
+}
+.banner h1{
+ color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+width: 523px;
+text-align: center;
+margin: 0 auto;
+
+}
+.banner h3{
+color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 27px;
+font-style: normal;
+font-weight: 900;
+padding-top: 140px;
+}
+
+
+
+
+
+/*65% off section*/
+.off{
+
+    max-width: 1320px;
+    width: 83%;
+    margin: 0 auto;
+
+}
+.off-container{
+    width: 665px;
+    margin: 120px auto 0;
+}
+.off-container h1{
+    color: #F00;
+    text-align: center;
+
+
+font-family: Inter;
+font-size: 73px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.off-container h3{
+    text-align: center;
+color: #F00;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.off-container h2{
+    color: #070211;
+    text-align: center;
+
+font-family: Inter;
+font-size: 39px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+     
+}
+
+
+
+
+
+
+/*midnight-party Section*/
+
+.mid-night{
+    width: 83%;
+    max-width: 1320px;
+    margin: 120px auto 0;
+}
+.mid-night-container{
+    display: flex;
+    justify-content: space-around;
+    background-image: url('./resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5px 30px 0px;
+}
+.mid-night-text h1{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 54px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: 7.04px;
+}
+.mid-night-text p{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.mid-night-text Button{
+    background-color: #F00;
+    padding: 15px;
+    color: #FFF;
+    font-weight: 700;
+   border-radius: 10px;
+   cursor: pointer;
+
+}
+.mid-night-text Button:hover{
+    background-color: darkcyan;
+    transition: 0.3s;
+
+}
+
+
+
+
+
+
+/* details Section*/
+
+details-section{
+    max-width: 1320px;
+    width: 83%;
+}
+.details{
+ width: 1095px;
+height: 482px;
+background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+margin: 120px auto 0;
+border-radius: 10px;
+}
+.details-content{
+    
+}
+.details-content h1{
+    color: rgb(16, 12, 12);
+
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; 
+text-transform: capitalize;
+}
+.details-content > h1{
+    padding: 20px;
+}
+ .btn button{
+    background-color: #F00;
+    padding: 15px;
+    color: #FFF;
+    font-weight: 700;
+    margin-left: 500px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.btn button:hover{
+    background-color: darkcyan;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+/*Gift Section Design*/
+
+.gift-section{
+    width: 83%;
+    max-width: 1320px;
+    margin: 120px auto 0;
+    
+}
+
+.gift-container h3{
+color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.gift-container h1{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.gift-container p{
+ color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.first-row{
+    display: flex;
+}
+.second-row{
+    display: flex;
+}
+
+.first-row img{
+    padding: 10px;
+    width: 332px;
+}
+.second-row img{
+    padding: 10px;
+    width: 332px;
+}
+
+
+.first-row img:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.second-row img:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+
+/*form Section*/
+.form-section{
+
+    max-width: 1320px;
+    width: 83%;
+
+}
+.form-container{
+    width: 1095px;
+    height: 482px;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+margin: 120px auto;
+text-align: center;
+}
+.form-container h1{
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+}
+.form-container p{
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+width: 700px;
+margin: 0 auto;
+}
+
+.form-design input{
+    padding: 10px 30px;
+    margin-right: 0;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.form-design Button{
+    margin-left: 0;
+    padding: 10px 30px;
+    background-color: #F00;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+.form-design Button:hover{
+    background-color: darkcyan;
+    transition: 0.3s;
+}
+
+
+
+
+/*footer Design*/
+
+footer{
+    margin-top: 120px;
+    width: auto;
+    height: auto;
+    
+
+
+}
+.footer-container{
+    background-color: black;
+    color: #FFF;
+    margin: 0 auto;
+   
+}
+.personal-details{
+    display: flex;
+    justify-content: space-around;
+}
+.address p{
+    width: 250px;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+}
+.phone p{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links img{
+    padding-right: 10px;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.rights p{
+    font-family: Inter;
+}
+.unsubscribe button{
+     background-color: #F00;
+     padding: 10px;
+     margin: 10px;
+     color: #FFF;
+     font-weight: 700;
+     font-family: Inter;
+     border-radius: 10px;
+}
+.unsubscribe button:hover{
+    background-color: darkcyan;
+    transition: 0.3s;
+}
+
+
+
+
+
