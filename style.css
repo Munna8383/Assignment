@@ -67,10 +67,8 @@ padding-top: 140px;
     margin: 120px auto 0;
 }
 .off-container h1{
-    color: #F00;
-    text-align: center;
-
-
+color: #F00;
+text-align: center;
 font-family: Inter;
 font-size: 73px;
 font-style: normal;
@@ -103,6 +101,10 @@ line-height: normal;
 margin-bottom: 48px;
      
 }
+.off-container img{
+    width: 666px;
+}
+
 
 
 
@@ -480,6 +482,7 @@ line-height: 40px; /* 166.667% */
      font-weight: 700;
      font-family: Inter;
      border-radius: 10px;
+     cursor: pointer;
 }
 .unsubscribe button:hover{
     background-color: darkcyan;
