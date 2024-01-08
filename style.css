@@ -16,11 +16,15 @@ margin: 0;
     max-width: 1320px;
     width: 83%;
     margin: 50px auto 0;
+    
 }
 .banner{
     width: 1096px;
     height: 498px;
     background-image: url('./resources/Banner\ Image.png');
+    background-blend-mode: multiply;
+    background-color: rgb(171, 154, 154);
+    border-radius: 15px;
     background-size: contain;
     margin: auto auto;
 
@@ -287,6 +291,8 @@ text-transform: capitalize;
 
 
 
+
+
 /*Gift Section Design*/
 
 .gift-section{
@@ -300,7 +306,7 @@ text-transform: capitalize;
 color: #F00;
 
 font-family: Inter;
-font-size: 24px;
+font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -310,7 +316,7 @@ margin-bottom: 16px;
     color: #070211;
 
 font-family: Merriweather;
-font-size: 48px;
+font-size: 40px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
@@ -321,7 +327,7 @@ margin-bottom: 22px;
  color: rgba(7, 2, 17, 0.60);
 
 font-family: Inter;
-font-size: 20px;
+font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px;
@@ -424,9 +430,9 @@ margin: 0 auto 40px;
 /*footer Design*/
 
 footer{
-    margin-top: 120px;
-    width: auto;
-    height: auto;
+    margin: 130px auto 0;
+    width: 100%;
+    max-width: 1320px;
     
 
 
